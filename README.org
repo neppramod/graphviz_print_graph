@@ -1,0 +1,12 @@
+#+TITLE: Graphviz Print Graph Library
+
+This library is used to print graphs in java using command line graphviz program (dot).
+
+* Detailed Description
+[[https://neppramod.wordpress.com/2021/02/19/using-graphviz-to-print-graph-list-tree-in-java/][This wiki]] page contains detailed description of the ~GraphPrinter.java~ class and its usage class ~Solution.java~.
+
+* Examples
+
+** Graph
+
+[[generatedoutputs/AdjGraph.png]]
