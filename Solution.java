@@ -141,6 +141,9 @@ public class Solution {
         gp.addln("concentrate=true");  // only 1 line to represent bidirectional graphs
         gp.addln("edge[arrowhead=none]");  // remove the arrowhead for graph, we don't need for bidirectional graph
 
+		gp.addln("node [margin=0 fontcolor=blue fontsize=32 width=0.5 shape=circle style=filled]");
+		gp.addln("rankdir=LR");
+
         // code goes here
         boolean[] visited = new boolean[n];
 
