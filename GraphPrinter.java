@@ -6,7 +6,8 @@ public class GraphPrinter {
     private StringBuilder graphBuilder = new StringBuilder();
     private String filePrefix;
 
-    public GraphPrinter() {}
+    public GraphPrinter() {
+    }
 
     /**
      * @param filePrefix Only put filename prefix E.g. File1, File2, MyNewFile, myfile etc. It will use the filePrefix to create output dot file and png file with same name.
@@ -16,7 +17,7 @@ public class GraphPrinter {
     }
 
     /**
-     * @param line  line contains a valid dot file graphviz text
+     * @param line line contains a valid dot file graphviz text
      */
     public void addln(String line) {
         graphBuilder.append(line).append("\n");
