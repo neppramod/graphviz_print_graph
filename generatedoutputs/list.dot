@@ -1,0 +1,6 @@
+digraph G {graph [rankdir="LR"]
+1 -> 2
+2 -> 3
+3 -> 4
+
+}
