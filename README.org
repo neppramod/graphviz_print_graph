@@ -16,6 +16,8 @@ gp.print();
 
 [[generatedoutputs/simple.png]]
 
+All other example code are in [[Solution.java]]
+
 * Examples
 
 ** Graph
