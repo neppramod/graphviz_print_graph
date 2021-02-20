@@ -3,7 +3,18 @@
 This library is used to print graphs in java using command line graphviz program (dot).
 
 * Detailed Description
-[[https://neppramod.wordpress.com/2021/02/19/using-graphviz-to-print-graph-list-tree-in-java/][This wiki]] page contains detailed description of the ~GraphPrinter.java~ class and its usage class ~Solution.java~.
+[[https://neppramod.wordpress.com/2021/02/19/using-graphviz-to-print-graph-list-tree-in-java/][This wiki]] page contains detailed description of the ~GraphPrinter.java~ class and its usage class ~Solution.java~. 
+
+* Code snippet to generate simple graph
+#+begin_src java
+// Simple Example
+GraphPrinter gp = new GraphPrinter("simple");
+gp.addln("1 -> 2");
+gp.addln("1 -> 3");
+gp.print();
+#+end_src
+
+[[generatedoutputs/simple.png]]
 
 * Examples
 
