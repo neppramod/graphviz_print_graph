@@ -63,7 +63,7 @@ public class Solution {
 
         ListNode cur = l;
 
-        gp.addln("graph [rankdir=\"LR\"]");
+		gp.addln("rankdir=LR");
 
         while (cur != null && cur.next != null) {
             gp.addln(String.valueOf(cur.val) + " -> " + String.valueOf(cur.next.val));
