@@ -33,17 +33,11 @@ public class Solution {
         for (int i = 0; i < 6; i++) {
             adj[i] = new ArrayList<Integer>();
         }
-        adj[1] = new ArrayList<>();
         adj[1].addAll(Arrays.asList(2, 4));
-        adj[2] = new ArrayList<>();
         adj[2].addAll(Arrays.asList(1, 3, 5));
-        adj[3] = new ArrayList<>();
         adj[3].addAll(Arrays.asList(2, 5));
-        adj[4] = new ArrayList<>();
         adj[4].addAll(Arrays.asList(1));
-        adj[5] = new ArrayList<>();
         adj[5].addAll(Arrays.asList(2, 3));
-
 
         sol.printGraphAdj(adj, 6);
     }
