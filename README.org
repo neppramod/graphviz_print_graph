@@ -10,3 +10,12 @@ This library is used to print graphs in java using command line graphviz program
 ** Graph
 
 [[generatedoutputs/AdjGraph.png]]
+
+** Tree
+
+[[generatedoutputs/Tree.png]]
+
+
+** List
+
+[[generatedoutputs/list.png]]
