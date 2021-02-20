@@ -13,7 +13,7 @@ This library is used to print graphs in java using command line graphviz program
 
 ** Tree
 
-[[generatedoutputs/Tree.png]]
+[[generatedoutputs/tree.png]]
 
 
 ** List
